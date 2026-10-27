@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#08111f">
+    <title>Bảng tuần hoàn 118 nguyên tố | Nguyên Tố</title>
+    <meta name="description" content="Khám phá bảng tuần hoàn 118 nguyên tố hóa học, tra cứu thông tin và luyện tập kiến thức hóa học.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<header class="site-nav"><div class="nav-inner">
+  <a class="brand" href="index.html"><span class="brand-mark"><i class="fa-solid fa-atom"></i></span>NGUYÊN TỐ<span style="color:var(--accent)">.</span></a>
+  <span class="nav-tag"><i class="fa-solid fa-flask me-2"></i>Không gian khám phá hóa học</span>
+</div></header>
+<main class="page-shell">
+  <section class="hero">
+    <div>
+      <span class="eyebrow"><i class="fa-solid fa-sparkles"></i> Chemistry explorer</span>
+      <h1>Khám phá thế giới<br><span>nguyên tố hóa học.</span></h1>
+      <p>118 nguyên tố, vô vàn điều kỳ thú. Tìm kiếm, phân loại và nhấn vào từng nguyên tố để khám phá những thông tin quan trọng.</p>
+      <div class="stats"><div class="stat"><strong>118</strong> nguyên tố</div><div class="stat"><strong>18</strong> nhóm</div><div class="stat"><strong>7</strong> chu kỳ</div></div>
+    </div>
+    <div class="hero-art" aria-hidden="true"><i class="fa-solid fa-atom"></i></div>
+    </section>
+    <div class="tools-panel">
+    <label class="search-wrap"><i class="fa-solid fa-magnifying-glass"></i><input id="element-search" type="search" placeholder="Tìm tên, ký hiệu hoặc số hiệu nguyên tử..." autocomplete="off" aria-label="Tìm nguyên tố"></label>
+    <div class="filters" role="group" aria-label="Lọc nguyên tố">
+      <button class="filter-btn active" data-category="all" type="button">Tất cả</button>
+      <button class="filter-btn" data-category="metal" type="button">Kim loại</button>
+      <button class="filter-btn" data-category="metalloid" type="button">Á kim</button>
+      <button class="filter-btn" data-category="nonmetal" type="button">Phi kim</button>
+      <button class="filter-btn" data-category="noble" type="button">Khí hiếm</button>
+    </div>
+    </div>
+    <div class="actions">
+    <a href="quiz.html" class="action-link primary"><i class="fa-solid fa-brain me-2"></i>Luyện tập kiến thức</a>
+    <a href="quiz.html?mode=daily" class="action-link daily"><i class="fa-solid fa-calendar-check me-2"></i>Thử thách hằng ngày</a>
+    </div>
+    <div class="legend" aria-label="Chú giải màu">
+    <span><i class="dot" style="background:#ff829e"></i>Kim loại kiềm</span><span><i class="dot" style="background:#ffc078"></i>Kim loại kiềm thổ</span><span><i class="dot" style="background:#f4d66e"></i>Kim loại chuyển tiếp</span><span><i class="dot" style="background:#7ddac8"></i>Á kim</span><span><i class="dot" style="background:#80c8ff"></i>Phi kim</span><span><i class="dot" style="background:#c3adff"></i>Khí hiếm</span><span><i class="dot" style="background:#f5a7df"></i>Họ Lanthanide / Actinide</span>
+    </div>
+    <section class="table-frame" aria-label="Bảng tuần hoàn các nguyên tố">
+    <div class="table-scroll"><div id="periodic-table" aria-live="polite"></div></div>
+    <div id="empty-state"><i class="fa-solid fa-magnifying-glass mb-2" style="font-size:1.6rem"></i><div>Không tìm thấy nguyên tố phù hợp.</div><small>Thử tên hoặc ký hiệu khác nhé.</small></div>
+    <div class="table-note"><span><i class="fa-regular fa-hand-pointer me-1"></i> Chọn một ô để xem thông tin chi tiết.</span><span id="result-count">Đang tải dữ liệu nguyên tố…</span></div>
+    </section>
+    <div id="modal-overlay" aria-hidden="true"></div>
+    <section id="detail-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-top"><h2 id="modal-title">Thông tin nguyên tố</h2><button class="close-modal" type="button" id="close-modal" aria-label="Đóng"><i class="fa-solid fa-xmark"></i></button></div>
+    <div class="modal-grid">
+      <div id="modal-tile-card" class="modal-card element-preview"><span class="number" id="modal-number"></span><span class="symbol" id="modal-symbol"></span><strong id="modal-name-text"></strong><small id="modal-mass-text"></small></div>
+      <div><div class="modal-card"><img id="modal-img-appearance" alt="Hình ảnh nguyên tố"></div><div class="card-label">HÌNH ẢNH NGUYÊN TỐ</div></div>
+      <div><div class="modal-card"><img id="modal-img-bohr" alt="Mô hình electron"></div><div class="card-label">MÔ HÌNH BOHR</div></div>
+    </div>
+    <div class="modal-meta-grid">
+      <div class="meta-item"><strong>SỐ HIỆU NGUYÊN TỬ</strong><span id="modal-number-text"></span></div>
+      <div class="meta-item"><strong>KÝ HIỆU</strong><span id="modal-symbol-text"></span></div>
+      <div class="meta-item"><strong>TÊN NGUYÊN TỐ</strong><span id="modal-name-val"></span></div>
+      <div class="meta-item"><strong>KHỐI LƯỢNG NGUYÊN TỬ</strong><span id="modal-mass-val"></span></div>
+      <div class="meta-item"><strong>PHÂN LOẠI</strong><span id="modal-category"></span></div>
+      <div class="meta-item"><strong>TRẠNG THÁI</strong><span id="modal-phase"></span></div>
+      <div class="meta-item"><strong>CẤU HÌNH ELECTRON</strong><span id="modal-config"></span></div>
+      <div class="meta-item"><strong>NHÀ KHÁM PHÁ</strong><span id="modal-discovered"></span></div>
+    </div>
+    <p id="modal-summary" class="summary"></p><p class="modal-hint">Nhấn nút × hoặc phím Esc để đóng cửa sổ.</p>
+  </section>
+</main>
+<footer class="site-footer">Dự án cộng tác của <strong style="color:var(--text)">Kim Thư &amp; Hoàng Nhân</strong> · Học hỏi hôm nay, khám phá ngày mai.</footer>
+<script src="./js/index.js"></script>
+</body>
+</html>

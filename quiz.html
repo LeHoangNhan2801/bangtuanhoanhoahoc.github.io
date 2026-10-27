@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header class="site-nav"><div class="nav-inner">
+        <a class="brand" href="./index.html"><span class="brand-mark"><i class="fa-solid fa-atom"></i></span>NGUYÊN TỐ<span style="color:var(--accent)">.</span></a>
+            <span class="nav-tag"><i class="fa-solid fa-flask me-2"></i>Không gian khám phá hóa học</span>
+    </header>
+    <div class="quiz-container">
+    <!-- Header hidden during setup screen -->
+    <div class="quiz-header" id="quiz-header" style="display: none;">
+        <div><i class="fa-solid fa-puzzle-piece me-2"></i>Thử Thách Nguyên Tố Hoá Học</div>
+        <div>Câu hỏi: <span id="current-q">1</span> / <span id="total-q-label">20</span> | Điểm: <span id="score">0</span></div>
+    </div>
+
+    <div id="quiz-body">
+        <!-- Setup Screen for Practice Mode -->
+        <div id="setup-screen" class="setup-screen">
+            <h3>⚙️ Cài đặt chế độ luyện tập</h3>
+            <p style="color: #94a3b8; margin: 15px 0 25px 0;">Chọn số lượng câu hỏi bạn muốn thử sức trong phiên này:</p>
+            <div style="margin-bottom: 25px;">
+                <label for="question-count" style="font-weight: 600;">Số câu:</label>
+                <select id="question-count" class="select-dropdown">
+                    <option value="10">10 câu</option>
+                    <option value="20" selected>20 câu</option>
+                    <option value="50">50 câu</option>
+                    <option value="100">100 câu</option>
+                </select>
+            </div>
+            <button class="start-btn" onclick="startCustomQuiz()">Bắt đầu ngay <i class="fa-solid fa-arrow-right ms-1"></i></button>
+        </div>
+    </div>
+
+        <div class="quiz-footer">
+            <a href="index.html" class="back-link"><i class="fa-solid fa-arrow-left me-1"></i> Quay lại Bảng Tuần Hoàn</a>
+            <button id="next-btn" class="next-btn" onclick="loadNextQuestion()">Câu tiếp theo <i class="fa-solid fa-arrow-right ms-1"></i></button>
+        </div>
+    </div>
+
+    <script src="./js/quiz.js"></script>
+</body>
+</html>
