@@ -597,10 +597,13 @@
     font-weight: 600;
     cursor: pointer;
     transition: background 0.2s;
+    margin-right: 15px;
 }
 
 .start-btn:hover {
     background: #059669;
+    transform: translateY(-2px);
+    transition: ease-in 0.14s ;
 }
 
 /* getstarted.html */
@@ -614,4 +617,138 @@
 
 .introduction {
 
+}
+
+.intro {
+    margin-left: 36px;
+}
+
+.intro h1 {
+    display: flex;
+    justify-self: center;
+    margin-left: 0;
+}
+
+.intro p {
+    text-indent: 2em
+}
+
+/* CSS Styling (Matches your dark theme) */
+.guide-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #e2e8f0;
+  font-family: 'Inter', sans-serif;
+}
+
+.guide-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.guide-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.guide-header p {
+  color: #94a3b8;
+  font-size: 1.1rem;
+}
+
+/* Grid Container */
+.guide-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+/* Card Styling with a Fixed Comfortable Height */
+.guide-card {
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 20px;
+  position: relative;
+  backdrop-filter: blur(12px);
+  min-height: 365px; /* Keeps card height completely fixed */
+  overflow: hidden;   /* Keeps all content locked inside the card */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.guide-card:hover {
+  border-color: rgba(56, 189, 248, 0.5);
+  box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(14, 165, 233, 0.15);
+}
+
+.card-badge {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #63a8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+/* Front & Back Content Transitions */
+.card-front, .card-back {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Back Content (Instructions) is hidden inside by default */
+.card-back {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* On hover, swap front and back contents smoothly */
+.guide-card:hover .card-front {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+}
+
+.guide-card:hover .card-back {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.card-back h4 {
+  font-size: 0.95rem;
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.card-back ul {
+  padding-left: 18px;
+  color: #cbd5e1;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.card-back li {
+  margin-bottom: 6px;
+}
+
+.guide-ending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

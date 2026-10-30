@@ -1,0 +1,19 @@
+h1 {
+    color: var(--second-color);
+}
+
+.unordered-listing-in-getstarted {
+    line-height: 30px;
+}
+
+.ending-view {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.side-image {
+    width: 120px;
+    height: auto;
+    flex-shrink: 0;
+}

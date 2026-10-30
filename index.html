@@ -20,8 +20,25 @@
         <span class="brand-mark"><i class="fa-solid fa-atom"></i></span>NGUYÊN TỐ<span style="color:var(--accent)">.</span>
       </a>
       <span class="nav-tag">
+        <svg class="pointer-arrow" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <!-- Arrowhead Marker -->
+                    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="var(--accent)" />
+                    </marker>
+                </defs>
+
+                <!-- Curved Dashed Path pointing to the button -->
+                <path d="M 20 80 Q 100 10 175 45" 
+                        fill="none" 
+                        stroke="var(--accent)" 
+                        stroke-width="3" 
+                        stroke-dasharray="6,6" 
+                        stroke-linecap="round"
+                        marker-end="url(#arrow)" />
+        </svg>
         <a href="./getstarted.html" class="intro-link">
-          <button class="btn" type="button">Bắt đầu</button>
+          <button class="start-btn" type="button">Bắt đầu</button>
         </a>
         <i class="fa-solid fa-flask me-2"></i>Không gian khám phá hóa học
       </span>

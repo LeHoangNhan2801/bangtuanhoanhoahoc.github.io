@@ -6,6 +6,7 @@
     --text:#edf4ff;
     --muted:#9aacc4;
     --accent:#66e3c4;
+    --second-color: #48D1CC;
 }
 
 * {
@@ -54,6 +55,18 @@ body {
     gap:16px
 }
 
+.nav-right-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.pointer-arrow {
+  width: 90px;
+  height: 45px;
+  pointer-events: none;
+}
+
 .brand {
     color:var(--text);
     font-weight:800;
@@ -92,7 +105,7 @@ body {
     padding:22px 24px;
     text-align:center;
     color:var(--muted);
-    font-size:.83rem
+    font-size:.83rem;
 }
 
 @media(max-width:600px) {
