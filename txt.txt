@@ -1,0 +1,110 @@
+# HƯỚNG DẪN SỬ DỤNG WEBSITE BẢNG TUẦN HOÀN CÁC NGUYÊN TỐ HÓA HỌC
+*Sản phẩm cộng tác của Kim Thư và Hoàng Nhân*
+
+#I. Giới thiệu chung
+
+Website Bảng tuần hoàn các nguyên tố hóa học được xây dựng nhằm hỗ trợ người dùng tra cứu, tìm hiểu và học tập về 118 nguyên tố hóa học một cách thuận tiện. Trang web có giao diện hiện đại, cách trình bày trực quan và các chức năng tìm kiếm, phân loại nguyên tố, xem thông tin chi tiết.
+
+Thông qua website, người dùng có thể tiếp cận kiến thức hóa học dễ dàng hơn, tiết kiệm thời gian tra cứu và nâng cao hiệu quả học tập.
+
+# II. Hướng dẫn sử dụng các chức năng
+
+#1. Truy cập website
+
+Người dùng mở đường dẫn của website bằng trình duyệt như Google Chrome, Microsoft Edge hoặc Safari.
+
+Sau khi truy cập thành công, trang chủ sẽ xuất hiện với giao diện chính của website. Người dùng có thể bắt đầu tìm hiểu bảng tuần hoàn và sử dụng các chức năng được cung cấp.
+
+#2. Quan sát bảng tuần hoàn các nguyên tố hóa học
+
+Tại khu vực bảng tuần hoàn, người dùng có thể quan sát vị trí của các nguyên tố theo số hiệu nguyên tử và cấu trúc của bảng.
+
+Mỗi ô nguyên tố thường hiển thị những thông tin cơ bản như:
+- Số hiệu nguyên tử: Cho biết số proton trong hạt nhân nguyên tử.
+- Ký hiệu hóa học: Chữ viết tắt dùng để biểu diễn nguyên tố.
+- Tên nguyên tố: Tên gọi của nguyên tố hóa học.
+- Khối lượng nguyên tử: Giá trị khối lượng nguyên tử được sử dụng trong tra cứu và học tập.
+
+Các nhóm nguyên tố được phân biệt bằng màu sắc để người dùng dễ nhận biết và ghi nhớ hơn.
+
+#3. Tìm kiếm nguyên tố
+
+Chức năng tìm kiếm giúp người dùng nhanh chóng tìm được nguyên tố cần tra cứu mà không phải quan sát toàn bộ bảng tuần hoàn.
+
+*Cách thực hiện:*
+1. Tìm thanh tìm kiếm trên giao diện website.
+2. Nhập thông tin của nguyên tố muốn tìm.
+3. Có thể tìm kiếm bằng tên nguyên tố, ký hiệu hóa học hoặc số hiệu nguyên tử.
+4. Quan sát kết quả được hiển thị trên màn hình.
+5. Nhấn vào nguyên tố cần tìm để xem thêm thông tin.
+
+Ví dụ: Khi muốn tìm nguyên tố Oxygen, người dùng có thể nhập Oxygen, O hoặc 8 vào thanh tìm kiếm.
+
+Chức năng này giúp việc tra cứu trở nên nhanh chóng, thuận tiện và phù hợp với nhu cầu học tập.
+
+#4. Lọc nguyên tố theo nhóm
+
+Website hỗ trợ phân loại nguyên tố theo một số nhóm hóa học nhằm giúp người dùng tìm hiểu đặc điểm chung giữa các nguyên tố.
+
+Cách thực hiện:
+1. Tìm khu vực bộ lọc nguyên tố.
+2. Chọn nhóm nguyên tố muốn tìm hiểu.
+3. Quan sát các nguyên tố phù hợp với nhóm đã chọn.
+4. Thay đổi lựa chọn để tìm hiểu những nhóm khác.
+
+Người dùng có thể lựa chọn các nhóm như kim loại, á kim, phi kim và khí hiếm nếu các bộ lọc tương ứng được hiển thị trên giao diện.
+
+Chức năng lọc giúp người dùng nhận biết sự phân loại của các nguyên tố và hiểu rõ hơn về cấu trúc của bảng tuần hoàn.
+
+#5. Xem thông tin chi tiết của nguyên tố
+
+Để tìm hiểu sâu hơn về một nguyên tố, người dùng có thể nhấn trực tiếp vào ô nguyên tố trên bảng tuần hoàn hoặc vào kết quả tìm kiếm tương ứng.
+
+Cửa sổ thông tin chi tiết sẽ hiển thị các dữ liệu được cung cấp cho nguyên tố đó, chẳng hạn như:
+- Tên và ký hiệu hóa học.
+- Số hiệu nguyên tử.
+- Khối lượng nguyên tử.
+- Nhóm và chu kỳ.
+- Trạng thái vật chất.
+- Mô tả khái quát về nguyên tố.
+- Cấu hình electron và mô hình nguyên tử Bohr nếu có dữ liệu tương ứng.
+
+Người dùng nên đọc lần lượt các thông tin để hiểu rõ hơn về đặc điểm và vị trí của nguyên tố trong bảng tuần hoàn.
+
+# 6. Đóng cửa sổ thông tin
+
+Sau khi xem xong thông tin chi tiết, người dùng có thể trở về bảng tuần hoàn để tiếp tục tra cứu.
+
+Có thể đóng cửa sổ thông tin bằng cách:
+- Nhấn nút đóng ở góc cửa sổ.
+- Nhấn ra bên ngoài cửa sổ thông tin.
+- Nhấn phím Esc trên bàn phím.
+
+Sau đó, người dùng có thể tiếp tục tìm kiếm hoặc lựa chọn nguyên tố khác.
+
+7. Sử dụng website trên các thiết bị khác nhau
+
+Website được thiết kế để hướng đến khả năng sử dụng trên máy tính, máy tính bảng và điện thoại.
+
+- Trên máy tính: Người dùng có thể quan sát bảng tuần hoàn với không gian hiển thị rộng, thuận tiện cho việc học tập và tra cứu.
+- Trên máy tính bảng: Có thể thao tác bằng chuột hoặc màn hình cảm ứng.
+- Trên điện thoại: Người dùng có thể tìm kiếm và xem thông tin nguyên tố trên màn hình nhỏ hơn.
+
+Tùy theo kích thước màn hình, bố cục và cách hiển thị có thể thay đổi để phù hợp với thiết bị.
+
+#III. Một số lưu ý khi sử dụng
+
+Để sử dụng website hiệu quả, người dùng nên lưu ý:
+
+1. Nhập đúng tên, ký hiệu hoặc số hiệu nguyên tử khi tìm kiếm.
+2. Kiểm tra kỹ thông tin của nguyên tố trước khi sử dụng cho bài tập hoặc báo cáo.
+3. Kết hợp chức năng tìm kiếm và bộ lọc để tiết kiệm thời gian.
+4. Sử dụng trình duyệt được cập nhật để có trải nghiệm tốt hơn.
+5. Nếu hình ảnh hoặc dữ liệu của một nguyên tố không hiển thị, hãy thử tải lại trang và kiểm tra kết nối Internet.
+6. Đối với những thông tin khoa học quan trọng, nên đối chiếu với sách giáo khoa hoặc tài liệu hóa học đáng tin cậy.
+
+#IV. Kết luận
+
+Website Bảng tuần hoàn các nguyên tố hóa học là một sản phẩm ứng dụng công nghệ vào việc học tập và tìm hiểu kiến thức khoa học. Với các chức năng tra cứu, tìm kiếm, phân loại và hiển thị thông tin chi tiết, website góp phần giúp người dùng tiếp cận kiến thức hóa học một cách trực quan và thuận tiện hơn.
+
+Sản phẩm là kết quả cộng tác của Kim Thư và Hoàng Nhân, thể hiện tinh thần chủ động học hỏi, vận dụng kiến thức lập trình và sáng tạo công nghệ vào thực tiễn. Trong tương lai, website có thể tiếp tục được phát triển bằng cách bổ sung thêm dữ liệu, bài tập tương tác và các công cụ hỗ trợ học tập nhằm nâng cao trải nghiệm người dùng.
